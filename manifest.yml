@@ -1,0 +1,8 @@
+---
+applications:
+  - name: simple-create-react-app
+    random-route: true
+    memory: 64M
+    instances: 1
+    domain: mybluemix.net
+    buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
